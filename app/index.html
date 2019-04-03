@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kanekki</title>
+
+    <!-- Подключаем шрифты -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <link rel="stylesheet" href="css/libs.min.css">
+</head>
+<body class ="">
+<!-- Заголовок обозначается так -->
+    <header id="header" class ="site-header" style="background-image: url(img/top-bg.jpg);">
+    
+    <!-- Вторая секция -->
+    <!-- section#name.name -->
+    <section id="name" class="name"></section>
+    <div class="container">
+        <div class="row">
+            <!-- Так? -->
+            <div class="col-lg-4">
+                <div class="logo">Hello, Artyom!!!!!!</div>
+            </div> 
+            <!-- ml-auto  раскидать по сторонам-->
+            <div class="col-lg-5 ml-auto">
+                <!-- Технология БЭМ -->
+                <!-- <БЛОК -->
+                <nav >
+                    <!-- БЛок обозначаетя обычным классом -->
+                    <!-- D-flex для обозначения блока -->
+                    <!-- justify-content-center (end) -->
+                    <ul class="menu d-flex justify-content-end"> 
+                        <!-- Элемент. Есть обязательства: название класса__название элемента-->
+                        <li class="menu__item">
+                            <a href="#">
+                                Home
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">
+                                About
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">
+                                Project
+                            </a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#">
+                                Contact
+                            </a>
+                            </li>      
+                                  
+                    </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-8 ">
+                <!-- Блок слева -->
+                <div class="offer">
+                    <!-- Элемент блока -->
+                    <div class="offer__title">
+                        <h2>INTERIOR FOR YOU</h2>
+                    </div>
+                    <div class="offer__intro">
+                        <h3>Studio full-cycle interior design in Chelyabinsk:<br> we develop design projects and implement them</h3>
+                    </div>
+                    <p class="offer__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eligendi illo distinctio blanditiis quo alias, repudiandae quod fugiat fugit ipsum veniam explicabo ducimus sunt qui voluptatem perferendis accusantium. Repellendus, cumque!
+                    </p>
+                    <!-- d-flex позволяет расположить в ряд -->
+                    <ul class="icon d-flex ">
+                        <li class="icon__item">
+                            <a href="#">
+                                <i class="fa fa-apple"></i>
+                            </a>
+                        </li>
+                        <li class="icon__item">
+                            <a href="#">
+                                 <i class="fa fa-android"></i>
+                            </a>
+                        </li>
+                        <li class="icon__item">
+                            <a href="#">
+                                <i class="fa fa-windows"></i>
+                            </a>
+                        </li>                        
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 ml-auto">
+                <div class="picture"></div>
+                <h1>hello</h1>
+            </div>
+        </div>
+    </div>
+    </header>
+
+    <section id="section__1" class="section__1">
+        <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 ">
+                        <h2 class="title__main">
+                            About
+                        </h2>
+                        <p class="title__text">
+                                Interior - is a well-coordinated team of qualified architects. We delight our customers with professional design solutions for more than 7 years
+                        </p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 ">
+                            <!-- Функция -->
+                            <div class="fetures d-flex">
+                                <i class="fa fa-tablet features__icon"></i>
+                                <div class="features__block">
+                                    <h3 class="features__title">
+                                        Product Design & Build
+                                    </h3>
+                                    <p class="features__text">
+                                        We create digital products that delight users and build business value.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 ml-auto ">
+                            <!-- Функция -->
+                            <div class="fetures d-flex">
+                                <i class="fa fa-tablet features__icon"></i>
+                                <div class="features__block">
+                                    <h3 class="features__title">
+                                        Product Design & Build
+                                    </h3>
+                                    <p class="features__text">
+                                        We create digital products that delight users and build business value.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 ">
+                            <!-- Функция -->
+                            <div class="fetures d-flex">
+                                <i class="fa fa-tablet features__icon"></i>
+                                <div class="features__block">
+                                    <h3 class="features__title">
+                                        Product Design & Build
+                                    </h3>
+                                    <p class="features__text">
+                                        We create digital products that delight users and build business value.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 ml-auto ">
+                            <!-- Функция -->
+                            <div class="fetures d-flex">
+                                <i class="fa fa-pencil features__icon"></i>
+                                <div class="features__block">
+                                    <h3 class="features__title">
+                                        Professionalism
+                                    </h3>
+                                    <p class="features__text">
+                                        We approach the matter thoroughly and efficiently.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>       
+                    </div>
+        </div>
+    </section>
+
+    <div class="section__2">
+            <div class="container">
+             <div class="row">
+                
+                <div class="col-lg-12 ">
+                    <h2 class="title__main">
+                        Projects
+                     </h2>
+                    <p class="title__text">
+                        This is our projects
+                    </p>
+                 </div>
+                 <div class="overlay"></div> 
+            </div>          
+        </div>
+        
+    </div>
+
+    <div class="s-call" style="background-image:url(img/call.jpg)">
+         <div class="container">
+            <div class="row">               
+                <div class="col-lg-5 ml-auto ">
+                    <div class="formhead">
+                        <div class="formhead__logo"><img src="" alt=""></div>
+                        <div class="formhead__tittle">Оставить заявку</div>
+                        <p class="formhead__intro">Оставьте заявку и мы перезвоним в течение 15 минут</p>
+                    </div>
+                        <form action="" class="callback">
+                                <!-- Будет враппером т.е сверху + центрировать -->
+                            <div class="succsess"><span>Спасибо за заявку</span></div>
+
+                                <!-- Hidden Required Fields -->
+                            <input type="hidden" name="project_name" value="Interior++">
+                            <input type="hidden" name="admin_email" value="kanekki28n@yandex.ru">
+                            <input type="hidden" name="form_subject" value="Заявка с сайта Interior++">
+                                
+                            <input type="hidden" name="Страница" value="">
+
+                                <!-- END Hidden Required Fields -->
+                            <input type="text" name="Name" placeholder="You name..." required><br>
+                            <input type="text" name="E-mail" placeholder="You E-mail..." required><br>
+                            <input type="text" name="Phone" placeholder="You phone..."><br>
+                            <button class="button">Send</button>
+                        </form>
+                </div>
+            </div>          
+        </div>      
+    </div>
+
+
+    <footer id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>This a footer</h1>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <link rel="stylesheet" href="css/main.css"> 
+	<!-- <script src="js/common.min.js"></script> -->
+</body>
+</html>

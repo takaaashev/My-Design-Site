@@ -1,0 +1,22 @@
+{
+  "name": "My Web Site",
+  "description": "My Web Site",
+  "main": "index.js",
+  "authors": [
+    "Kanekki"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
